@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-graphql-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --watch server server/index.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "populate": "node server/initialDb/populate.js"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^2.25.3",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.6.1",
+    "connect-mongodb-session": "^3.1.1",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.0",
+    "graphql": "^15.8.0",
+    "isomorphic-unfetch": "^3.1.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.13",
+    "next": "^12.0.7",
+    "next-with-apollo": "^5.2.1",
+    "node-sass": "^4.13.1",
+    "passport": "^0.5.0",
+    "passport-strategy": "^1.0.0",
+    "react": "^17.0.2",
+    "react-apollo": "^3.1.5",
+    "react-bootstrap": "^2.0.3",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.15.8",
+    "react-toastify": "^8.1.0"
+  }
+}
